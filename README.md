@@ -74,7 +74,7 @@ gcc -L<path to .SO file> -Wall -o code main.c -l<library name>
 This line should compile and link the code... but I am not sure what is going on with my MacBook 😖
 
 ```bash
-gcc main.cpp -L/Users/cyrus/Projects/harper/122/csc_122_compilation_demo/source -Wall -o prog -L /Users/cyrus/Projects/harper/122/csc_122_compilation_demo
+g++ main.cpp -L/Users/cyrus/Projects/harper/122/csc_122_compilation_demo/source -Wall -o prog -L /Users/cyrus/Projects/harper/122/csc_122_compilation_demo
 ```
 
 An example with [SFML](https://www.sfml-dev.org/):
